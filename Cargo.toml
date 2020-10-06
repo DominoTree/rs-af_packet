@@ -1,0 +1,13 @@
+[package]
+name = "af_packet"
+version = "0.3.1"
+authors = ["Nick Price <nick@spun.io>"]
+description = "AF_PACKET bindings for Rust, primarily to be used for high-performance network security applications."
+license = "GPL-3.0"
+repository = "https://github.com/DominoTree/rs-af_packet"
+keywords = ["pcap", "af_packet", "packet", "security", "linux"]
+categories = ["os", "os::unix-apis", "network-programming", "development-tools::ffi"]
+
+[dependencies]
+libc = "0.2"
+nom = "5.1"

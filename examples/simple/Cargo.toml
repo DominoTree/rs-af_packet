@@ -1,0 +1,8 @@
+[package]
+name = "simple_example"
+version = "0.1.0"
+authors = ["Nick Price <nick@spun.io>"]
+
+[dependencies]
+af_packet = { path = "../../" }
+num_cpus = "*"
